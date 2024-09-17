@@ -1,0 +1,191 @@
+   65  git --version 
+   66  git config --global user.name "Samantha"
+   67  git config -- global user.email samrich277@gmail.com
+   68  git config -- global init.defaultBranch main
+   69  git config == global user.email samrich277@gmail.com
+   70  git config -- global user.email samrich277@gmail.com
+   71  git config -- global user.email "samrich277@gmail.com\n"
+   72  git config -- global user.email "samrich277@gmail.com"
+   73  git config --global user.email "samrich277@gmail.com"
+   74  git config --global init.defaultBranch main
+   89  git config --global user.name "Samantha"
+   90  git -- version
+   91  git --version
+   92  git status
+   93  git --version
+   94  git config --global core.editor "code --wait"
+   95  git config --global init.defaultBranch main
+   96  git config --list
+  100  mkdir git-practice
+  102  cd git-practice
+  104  git status
+  105  git init
+  106  git status
+  109  mkdir git-practice-samantha
+  116  cd git-practice-samantha
+  118  git init
+  129  https://github.com/esnt/stat386-blog-theme.git
+  130  git clone https://github.com/esnt/stat386-blog-theme.git
+  132  git remote set-url origin https://github.com/samrich277/my-blog.git
+  133  git push -u origin main
+  134  git push -u origin main
+  142  git clone git@github.com:esnt/stat386-blog-theme.git
+  143  git clone git@github.com:esnt/stat386-blog-theme.git
+  145  git remote set-url origin https://github.com/samrich277/my-blog.git
+  146  git push -u origin main
+  147  git push -u origin main
+  149  git clone git@github.com:esnt/stat386-blog-theme.git
+  151  git remote set-url origin git@github.com:samrich277/my-blog.git
+  152  git push -u origin main
+  155  cd git-practice-samantha
+  159  git clone git@github.com:esnt/stat386-blog-theme.git
+  166  git add _config.yml about.markdown
+  167  git commit -m "Customize blog settings and about page"
+  168  git push origin main
+  169  git remote -v
+  170  git remote add origin git@github.com:samrich277/my-blog.git
+  171  git remote -v
+  172  git remote set-url origin git@github.com:samrich277/my-blog.git
+  173  git remote -v
+  174  ssh -T git@github.com
+  175  git push origin main
+  178  cd git-practice-samantha
+  179  git add file_1.txt file_2.txt
+  180  git status
+  181  git commit -m "create new files"
+  182  git status
+  183  git log
+  188  git status
+  189  git add file_1.txt
+  190  git status
+  191  git commit -m "commit file 1"
+  192  git status
+  193  git add file_2.txt
+  194  git commit -a "commit file 2"
+  195  git status
+  196  git commit -m "commit file 2"
+  197  git status
+  198  git log
+  202  git add .
+  203  git commit -m "fully updated"
+  204  git push
+  205  git pull
+  206  git add .
+  207  git commit -m "exclamationmark"
+  208  git push
+  212  git add .
+  213  git commit -m "fixed baseurl"
+  214  git push
+  223  git add .
+  224  git commit -m " add quates to baseurl"
+  225  git push
+  226  git add .
+  227  git commit -m "added practice post'\n"
+  228  git commit
+  229  git push
+  230  git add .
+  231  git commit -m "updated practice post"
+  232  git push
+  233  git add .
+  234  git commit -m "add image and link to practice"
+  235  git commit
+  236  git push
+  239  cd git-practice-samantha
+  249  cd git-practice-samantha
+  250  git add .
+  251  git commit -m "create a readme file"
+  252  touch .gitignore
+  254  git add .gitignore
+  255  git commit -m "Add .gitignore file to ignore api-keys.txt"
+  257  git status
+  262  cd git-practice-samantha
+  263  git status
+  264  git branch features
+  265  git checkout features
+  266  git log
+  268  git add new_features.txt
+  269  git commit -m "add empty file"
+  270  git add new_features.txt
+  271  git commit -m "Add new features text to new_features.txt"
+  272  git checkout main
+  273  git add .
+  274  git commit -m "added a line to file1.txt"
+  275  git merge features
+  276  git commit
+  280  git config --global core.editor "code --wait"
+  281  git merge features
+  282  git status
+  283  git commit
+  284  git checkout main
+  285  git merge features
+  286  git log
+  287  git checkout main
+  289  git add new_features.txt
+  290  git commit -m "Update new_features.txt on main branch:\n"
+  291  git checkout features
+  293  git add .
+  294  git commit -m "Update new_features.txt on features branch"
+  295  git checkout main
+  296  git merge features
+  297  git add new_features.txt
+  298  git commit -m "Resolve merge conflict"
+  299  git branch -d features
+  300  git remote add origin git@github.com:samrich277/git-practice-samrich277.git
+  301  git push -u origin main
+  307  git add .
+  308  git status
+  309  git commit -m "Create new First-Post and add domo image"
+  310  git push
+  311  git add .
+  312  git commit -m "make first post into a .md"
+  313  git push
+  315  git add .
+  316  git status
+  317  git commit -m " Shortened description on first post"
+  318  git push
+  327  cd git-practice-samantha
+  329  git add .
+  330  git status
+  331  git commit -m "add paragraphs and general layout to first post"
+  332  git push
+  333  git add .
+  334  git commit -m "change font for header in first post"
+  335  git push
+  336  git add .
+  337  git commit -m "add an introductory paragraph to first blog"
+  338  git push
+  339  git add .
+  340  git commit -m "fixed image in first post"
+  341  git push
+  342  git push
+  356  git clone https://github.com/Stat386-Fall2024/lab-02-samrich277
+  357  git clone git@github.com:Stat386-Fall2024/lab-02-samrich277.git
+  363  git clone git@github.com:samrich277/git-practice-brinleyostler.git
+  364  git branch feature-samrich277
+  366  cd git-practice-brinleyoster
+  367  cd git-practice-brinleyostler
+  368  git branch feature-samrich277
+  371  git commit -m "added a new file"
+  372  git add .
+  373  git commit -m "add new file and add text to it"
+  374  git push origin feature-samrich277
+  375  git add .
+  376  git commit -m "added new file with new text"
+  377  git log
+  378  git log --oneline
+  379  git push origin feature-samrich277
+  380  git add .
+  381  git commit -m "made more changes and text"
+  382  git push origin feature-samrich277
+  383  git branch
+  384  git switch feature-samrich277
+  386  git add.
+  387  git add .
+  388  git log
+  389  git touch new_file_sam.txt
+  391  git add .
+  392  git commit -m "add a fully new file"
+  393  git push origin feature-samrich277
+  396  cd git-practice-samantha
+  397  git pull
+  398  git log --oneline > gitlog.txt

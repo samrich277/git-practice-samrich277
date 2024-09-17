@@ -1,0 +1,13 @@
+0c61db5 Merge pull request #1 from KimmyBeeW/features-KimmyBeeW
+765fa6e add file asking about fav fruit
+b1621b6 Merge branch 'features'
+7fcb49d Update new_features.txt on features branch
+5471df9 Merge branch 'features'
+4ced815 added a line to file1.txt
+662984c Add new features text to new_features.txt
+46484d3 add empty file
+07bcc7e Add .gitignore file to ignore api-keys.txt
+e2d9271 create a readme file
+d4e3910 commit file 2
+565ebc2 commit file 1
+269ec0f create new files
